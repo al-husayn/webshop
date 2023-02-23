@@ -1,8 +1,6 @@
-import {Routes, Route} from "react-router-dom"
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import Home from "./pages/home/Home";
-import Contact from "./pages/contact/Contact.jsx"
+import { Routes, Route } from "react-router-dom";
+import {Home, Contact, Admin} from './pages'
+import { Header, Footer} from "./components"
 
 function App() {
   return (
@@ -11,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
       <Footer />
     </>
