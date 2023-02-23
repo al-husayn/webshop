@@ -6,6 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+    },
+    colors: {
+      primary: "##FFFFFF",
+      secondary: '#F5F5F5',
+      accent: "#FDB813)",
+      transparent: "transparent",
+      current: "currentColor",
+    },
   },
   plugins: [],
 }
