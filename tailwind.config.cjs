@@ -10,11 +10,13 @@ module.exports = {
       sans: ['Poppins', 'sans-serif'],
     },
     colors: {
-      primary: "##FFFFFF",
+      primary: "#FFFFFF",
       secondary: '#F5F5F5',
-      accent: "#FDB813)",
+      accent: "#FDB813",
       transparent: "transparent",
       current: "currentColor",
+      tomato: "#FF6347",
+      teal: "#008080"
     },
   },
   plugins: [],
